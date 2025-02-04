@@ -1,0 +1,42 @@
+:root {
+
+    --var-primary-color-very-dark-magenta:hsl(300, 43%, 22%);
+    --var-primary-color-soft-pink:hsl(333, 80%, 67%);
+    --var-neutral-color-dark-grey-magenta: hsl(303, 10%, 53%);
+    --var-neutral-color-light-gray-magenta:hsl(300, 24%, 96%);
+    --var-neutral-white:hsl(0, 0%, 100%);
+
+    --primary-font:"League Spartan";
+    --primary-font-size:15px;
+}
+
+
+* {
+
+    padding:0px;
+    margin: 0px;
+    font: var(--primary-font);
+    font-size: var(--primary-font-size);
+}
+
+body {
+
+    background-color: var(--var-neutral-color-light-gray-magenta);
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    height:95dvh;
+}
+
+footer {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5dvh;
+}
