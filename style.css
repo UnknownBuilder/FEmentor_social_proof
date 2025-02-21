@@ -32,6 +32,7 @@ body {
 h1 {
 
     font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 main {
@@ -40,6 +41,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 2.5rem;
     height:95dvh;
 }
 
@@ -67,11 +69,11 @@ p {
 /* ---------- CLASSES ---------- */
 
 
-.bubble_reviews {
+.bubble-reviews {
 
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     background-color: var(--var-neutral-color-light-gray-magenta);
     border-radius: 0.5rem;
     width: 22rem;
@@ -96,15 +98,20 @@ p {
 
 }
 
-.main-header {
-
-    text-align: center;
-}
-
 .heading-container {
 
     position: relative;
     top:1rem;
+}
+
+.header-main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+    text-align: center;
 }
 
 .heading-name {
@@ -131,6 +138,7 @@ p {
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 1.5rem;
     padding-bottom: 1rem ;
     
