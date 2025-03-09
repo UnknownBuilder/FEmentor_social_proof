@@ -76,7 +76,6 @@ p {
     align-items: center;
     background-color: var(--var-neutral-color-light-gray-magenta);
     border-radius: 0.5rem;
-    width: 18rem;
     padding: 1rem 2rem ;
     margin: 0.5rem 0.5rem;
 
@@ -96,12 +95,6 @@ p {
     background-color: var(--var-primary-color-very-dark-magenta);
     color: var(--var-neutral-white);
 
-}
-
-.heading-container {
-
-    position: relative;
-    top:1rem;
 }
 
 .header-main{
@@ -135,19 +128,47 @@ p {
 
 }
 
-.star {
+.star{
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 1.5rem;
-    padding-bottom: 1rem ;
-    
+    padding: 0.25rem 0.25rem;
 }
 
+.star-review{
+
+    font-weight: 700;
+}
+
+.star-wrapper {
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem ;
+}
 
 @media (min-width:1200px) {
 
+    h1{
+
+        font-size: 3rem;
+    }
+    
+    main{
+
+        height:95dvh;
+
+    }
+
+    footer{
+
+        height:5dvh;
+    }
+
+    .bubble-reviews{
+
+        flex-direction: row;
+        margin-bottom: 1.5rem;
+    }
+    
     .cards{
 
         display: flex;
@@ -156,12 +177,47 @@ p {
 
     .header-main{
 
-        flex-direction: row;
+        position: relative;
+        right:5rem;
+        text-align: left;
+        width: 22rem;
+        margin-right: 9.5rem;
     }
 
     .reviews {
 
         flex-direction: row;
+    }
+
+    .star-review{
+
+        position: relative;
+    }
+
+    .star-wrapper{
+
+        padding-bottom: 0rem;
+        padding-right: 2.5rem;
+
+    }
+
+    .top-container{
+
+        display: flex;
+        margin-bottom: 2.5rem;
+
+    }
+
+    #a2{
+
+        position: relative;
+        left:2.5rem;
+    }
+
+    #a3{
+
+        position: relative;
+        left:5rem;
     }
 
     #b2{
@@ -175,8 +231,5 @@ p {
         position: relative;
         top:2rem;
     }
-
-
-
 
 }
